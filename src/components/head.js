@@ -34,7 +34,8 @@ const Head = ({ title, description, image }) => {
   } = site.siteMetadata;
 
   const seo = {
-    title: title || defaultTitle,
+    title: 'Kevin Lu',
+    //title: title || defaultTitle,
     description: description || defaultDescription,
     image: `${siteUrl}${image || defaultImage}`,
     url: `${siteUrl}${pathname}`,

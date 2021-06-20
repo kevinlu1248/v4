@@ -125,7 +125,7 @@ const About = () => {
     sr.reveal(revealContainer.current, srConfig());
   }, []);
 
-  const skills = ['JavaScript (ES6+)', 'React', 'Eleventy', 'Vue', 'Node.js', 'WordPress'];
+  const skills = ['React/JSS', 'Flask', 'PostgreSQL', 'Heroku', 'Jupyter', 'Numpy/Pandas/SKLearn'];
 
   return (
     <StyledAboutSection id="about" ref={revealContainer}>
@@ -135,21 +135,29 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              Hello! My name is Brittany and I enjoy creating things that live on the internet. My
-              interest in web development started back in 2012 when I decided to try editing custom
-              Tumblr themes — turns out hacking together a custom reblog button taught me a lot
-              about HTML &amp; CSS!
+              Hello! I'm Kevin and I like working with and building software of all forms, from
+              creating browser extensions to experimenting on Jupyter notebooks. I particularly
+              enjoy NLP, as they have applications anywhere from summarizing customer intents to
+              contributing to COVID-19 research.
             </p>
 
             <p>
-              Fast-forward to today, and I've had the privilege of working at{' '}
-              <a href="https://us.mullenlowe.com/">an advertising agency</a>,{' '}
-              <a href="https://starry.com/">a start-up</a>,{' '}
-              <a href="https://www.apple.com/">a huge corporation</a>, and{' '}
-              <a href="https://scout.camd.northeastern.edu/">a student-led design studio</a>. My
-              main focus these days is building accessible, inclusive products and digital
-              experiences at <a href="https://upstatement.com/">Upstatement</a> for a variety of
-              clients.
+              My interests in development all started in high school when I bumped into a PHP
+              tutorial and decided to build an attendance system for my school using a PHP web app.
+              Although the project was never deployed at school, I learned a great deal about
+              full-stack software development!
+            </p>
+
+            <p>
+              Four years later, I've built a
+              <a href="https://github.com/kevinlu1248/pyate">
+                Python package for automated term extraction
+              </a>
+              , attaining 20,000 downloads, built a
+              <a href="https://github.com/kevinlu1248/researchy-chrome-extension">
+                Chrome Extension to accelerate research
+              </a>
+              , and worked full-time as a web developer.
             </p>
 
             <p>Here are a few technologies I've been working with recently:</p>
