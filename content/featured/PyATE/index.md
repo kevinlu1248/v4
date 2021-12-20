@@ -1,7 +1,7 @@
 ---
 date: '3'
 title: 'PyATE Python Package'
-cover: './white.jpg'
+cover: './pyate-site.png'
 github: 'https://github.com/kevinlu1248/pyate'
 external: 'https://github.com/kevinlu1248/pyate'
 tech:

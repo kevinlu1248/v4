@@ -1,7 +1,7 @@
 ---
 date: '2'
 title: 'Recycler'
-cover: './white.jpg'
+cover: './recycler-demo.png'
 github: 'https://github.com/kevinlu1248/recycler'
 external: 'https://spotify-profile.herokuapp.com/'
 tech:

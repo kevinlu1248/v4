@@ -1,7 +1,7 @@
 ---
 date: '1'
 title: 'Research Mode'
-cover: './white.jpg'
+cover: './researchy-website.png'
 github: 'https://github.com/kevinlu1248/researchy-chrome-extension'
 external: 'https://kevinlu1248.github.io/researchy-chrome-extension/'
 tech:

@@ -153,11 +153,12 @@ const About = () => {
               <a href="https://github.com/kevinlu1248/pyate">
                 Python package for automated term extraction
               </a>
-              , attaining 20,000 downloads, built a
+              , attaining 30,000 downloads, built a&nbsp;
               <a href="https://github.com/kevinlu1248/researchy-chrome-extension">
                 Chrome Extension to accelerate research
               </a>
-              , and worked full-time as a web developer.
+              , and&nbsp;
+              <a href="https://arxiv.org/abs/2109.03892">published a paper at AAAI.</a>
             </p>
 
             <p>Here are a few technologies I've been working with recently:</p>

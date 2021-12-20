@@ -1,8 +1,9 @@
 ---
 date: '2021-01-12'
-title: 'Technical Reviewer'
+title: 'Technical Reviewer for Mastering spaCy'
+position: 'Technical Reviewer'
+caption: 'Mastering spaCy'
 company: 'Packt'
-location: 'Birmingham, UK'
 range: 'Spring 2021'
 url: 'https://www.packtpub.com/product/mastering-spacy/9781800563353'
 ---

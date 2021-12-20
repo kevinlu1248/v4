@@ -12,7 +12,11 @@ module.exports = {
     },
     {
       name: 'Linkedin',
-      url: 'https://www.linkedin.com/in/kevin-lu-388900197/',
+      url: 'https://www.linkedin.com/in/kevinlu1248/',
+    },
+    {
+      name: 'Twitter',
+      url: 'https://twitter.com/KevinLu45010771',
     },
   ],
 
