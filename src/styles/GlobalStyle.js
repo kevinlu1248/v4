@@ -11,6 +11,7 @@ const GlobalStyle = createGlobalStyle`
   html {
     box-sizing: border-box;
     width: 100%;
+    scroll-behavior: smooth;
   }
 
   *,
@@ -24,7 +25,27 @@ const GlobalStyle = createGlobalStyle`
     color: var(--lightest-slate);
   }
 
+  /* Provide basic, default focus styles.*/
   :focus {
+    outline: 2px dashed var(--green);
+    outline-offset: 3px;
+  }
+
+  /*
+    Remove default focus styles for mouse users ONLY if
+    :focus-visible is supported on this platform.
+  */
+  :focus:not(:focus-visible) {
+    outline: none;
+    outline-offset: 0px;
+  }
+
+  /*
+    Optionally: If :focus-visible is supported on this
+    platform, provide enhanced focus styles for keyboard
+    focus.
+  */
+  :focus-visible {
     outline: 2px dashed var(--green);
     outline-offset: 3px;
   }
@@ -34,13 +55,13 @@ const GlobalStyle = createGlobalStyle`
     scrollbar-width: thin;
     scrollbar-color: var(--dark-slate) var(--navy);
   }
-  body::-webkit-scrollbar {
+  ::-webkit-scrollbar {
     width: 12px;
   }
-  body::-webkit-scrollbar-track {
+  ::-webkit-scrollbar-track {
     background: var(--navy);
   }
-  body::-webkit-scrollbar-thumb {
+  ::-webkit-scrollbar-thumb {
     background-color: var(--dark-slate);
     border: 3px solid var(--navy);
     border-radius: 10px;
@@ -245,10 +266,6 @@ const GlobalStyle = createGlobalStyle`
 
     &.inline-link {
       ${({ theme }) => theme.mixins.inlineLink};
-    }
-
-    &[target='_blank'] {
-      cursor: ne-resize;
     }
   }
 

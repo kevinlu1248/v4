@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import { CSSTransition, TransitionGroup } from 'react-transition-group';
 import styled from 'styled-components';
-import { email } from '@config';
 import { navDelay, loaderDelay } from '@utils';
 import { usePrefersReducedMotion } from '@hooks';
+// import { email } from '@config';
 
 const StyledHeroSection = styled.section`
   ${({ theme }) => theme.mixins.flexCenter};
@@ -36,7 +36,7 @@ const StyledHeroSection = styled.section`
 
   p {
     margin: 20px 0 0;
-    max-width: 500px;
+    max-width: 540px;
   }
 
   .email-link {
@@ -69,8 +69,12 @@ const Hero = () => {
     </p>
   );
   const five = (
-    <a href={`mailto:${email}`} className="email-link">
-      Get In Touch
+    <a
+      className="email-link"
+      href="https://www.newline.co/courses/build-a-spotify-connected-app"
+      target="_blank"
+      rel="noreferrer">
+      Check out my course!
     </a>
   );
 
