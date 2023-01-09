@@ -1,12 +1,12 @@
 ---
-date: '2022-09-01'
-caption: 'PINEAPPLE'
+date: '2021-08-15'
+caption: 'VisCTG'
 position: 'Author'
-title: 'PINEAPPLE: Personifying INanimate Entities by Acquiring Parallel Personification data for Learning Enhanced generation'
-company: 'COLING 2022'
-range: 'Summer 2022'
-url: ''
+title: 'Retrieve, Caption, Generate: Visual Grounding for Enhancing Commonsense in Text Generation Models'
+company: 'AAAI'
+range: 'Summer 2021'
+url: 'https://arxiv.org/abs/2109.03892'
 ---
 
-- Paper on NLP models' understanding of personifications
-- Involves curation of a dataset of personifications, and models for identifying and generating personifications
+- Paper on using visual grounding to improve commonsense NLG models
+- Involved in web scraping and training models as second author

@@ -63,9 +63,9 @@ const Hero = () => {
   const three = <h3 className="big-heading">I am a CS student at UWaterloo.</h3>;
   const four = (
     <p>
-      Sucker for new ideas and innovative technologies, especially those oriented to help others.
-      Passionate for computer science and mathematics. Experienced in full-stack web development and
-      data science.
+      Sucker for new ideas and innovative tech, especially those that can automating repetitive,
+      mundane, tasks to save people's valuable time. Passionate for CS and math, with two papers in
+      NLP. Experienced in full-stack and ML dev.
     </p>
   );
 

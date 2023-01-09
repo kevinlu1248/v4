@@ -3,7 +3,7 @@ date: '2022-05-02'
 title: 'Full-Stack Software Engineer (part-time)'
 company: 'Skinopathy'
 location: 'Toronto, Ontario'
-range: 'Summer 2022 - Now'
+range: 'June 2022 - December 2022'
 url: 'https://skinopathy.com/'
 ---
 
