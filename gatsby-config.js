@@ -2,10 +2,13 @@ const config = require('./src/config');
 
 module.exports = {
   siteMetadata: {
-    title: 'Brittany Chiang',
+    // title: 'Brittany Chiang',
+    title: 'Kevin Lu',
     description:
-      'Brittany Chiang is a software engineer who specializes in building (and occasionally designing) exceptional digital experiences.',
-    siteUrl: 'https://brittanychiang.com', // No trailing slash allowed!
+      // 'Brittany Chiang is a software engineer who specializes in building (and occasionally designing) exceptional digital experiences.',
+      'Kevin Lu is a student from UWaterloo who works as an full-stack and ML developer, with two papers in NLP in major conferences.',
+    // siteUrl: 'https://chiang.com', // No trailing slash allowed!
+    siteUrl: 'https://kevin-lu.tech', // No trailing slash allowed!
     image: '/og.png', // Path to your image you placed in the 'static' folder
     twitterUsername: '@bchiang7',
   },
@@ -20,8 +23,10 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: 'BrittanyChiang',
-        short_name: 'BrittanyChiang',
+        // name: 'BrittanyChiang',
+        // short_name: 'BrittanyChiang',
+        name: 'KevinLu',
+        short_name: 'KevinLu',
         start_url: '/',
         background_color: config.colors.darkNavy,
         theme_color: config.colors.navy,
